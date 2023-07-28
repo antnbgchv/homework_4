@@ -11,13 +11,13 @@ public class GithubSelenideTests {
 
     @BeforeAll
     static void config() {
-        //configParams
+        //config params
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
     }
 
     @Test
-    void JUnit5Test() {
+    void codeExampleTest() {
         //added a variable for the code example
         String codeExample = """
                         @ExtendWith({SoftAssertsExtension.class})
